@@ -1,5 +1,5 @@
 // Program made by Donovan Ramsey for Patrick Juola 
-// Uses OpenGL to make Greenland's flag
+// Uses OpenGL to make Australia's flag
 #include <stdio.h>
 #include <glut/glut.h>
 #include <math.h>
@@ -140,9 +140,7 @@ glBegin(GL_POLYGON); // **Modified Star code from Kinardi Isnata **
 	GLdouble points[3][2] = { 
 								  {r * cos(54.0/180.0 * pi) , r * sin(54.0/180.0 * pi)}, //right
 								  {0, (r+star_point) * cos(54.0/180.0 * pi) * sin(72.0/180.0 * pi)/cos(72.0/180.0 * pi)}, //top
-								// {r * cos(100.0/180.0 * pi), r * sin(100.0/180.0 * pi)}
 								  {r * cos(126.0/180.0 * pi) ,r * sin(126.0/180.0 * pi)}
-								 // {(r + 5) * cos(126.0/180.0 * pi) ,(r + 5) * sin(126.0/180.0 * pi)}
 								};
 
 	//Apply rotation formula on each coordinates to produce all triangles 
