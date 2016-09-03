@@ -1,5 +1,5 @@
 // Program made by Donovan Ramsey for Patrick Juola 
-// Uses OpenGL to make Australia's flag
+// Uses OpenGL to make Australia's flag 
 #include <stdio.h>
 #include <glut/glut.h>
 #include <math.h>
